@@ -1,0 +1,5 @@
+package org.kotlinlang.play  
+
+//package name_OF_PAKAGE
+//IF THERE IS NO NAME OF THE SOLUTION AFTER THE PACKAGE SYN, IT GOES TO THE DEFAULT PACKAGE.
+

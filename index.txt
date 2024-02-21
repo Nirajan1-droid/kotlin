@@ -1,1 +1,3 @@
 start
+val is the varibale data type.
+

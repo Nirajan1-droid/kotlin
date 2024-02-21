@@ -1,0 +1,8 @@
+//powerful type interface.
+//use val for the variable whose value never changes
+var a: String = "initial" // 1
+val d: String = "nirajan"
+println(d)
+var b: Int = 1             // 2
+val c = 3   
+

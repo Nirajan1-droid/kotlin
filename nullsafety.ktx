@@ -1,0 +1,22 @@
+ var nullable: String? = "You can keep a null here"      // 3
+
+    nullable = null 
+     fun strLength(notNull: String): Int { 
+
+       return notNull.length
+    }
+
+    println(strLength(neverNull));                                    // 8
+    println(strLength(nullable));  
+
+    
+//Type mismatch: inferred type is Nothing? but String was expected
+
+
+fun describeString(maybeString: String?): String {              // 1
+    if (maybeString != null && maybeString.length > 0) {        // 2
+        return "String of length ${maybeString.length}"
+    } else {
+        return "Empty or null string"                           // 3
+    }
+}

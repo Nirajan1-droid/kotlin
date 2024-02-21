@@ -1,0 +1,18 @@
+fun main() {
+    val trafficLightColor = "Red"
+
+    when (trafficLightColor) { //varibale name 
+        "Red" -> println("Stop")//variable value is checked in the single line making it easy to understand the code readability
+    }
+}
+
+//else in the while condition:
+fun main() {
+    val trafficLightColor = "Black"
+
+    when (trafficLightColor) {
+        "Red" -> println("Stop")
+         else -> println("Invalid traffic-light color")//for another condition other than "Red"
+    }
+}
+

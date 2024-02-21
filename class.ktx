@@ -1,0 +1,16 @@
+class Customer                                  // 1
+
+class Contact(var id: Int? = null, var email: String? = null)   // 2
+
+fun main() {
+
+    var customer =  Contact()     
+    customer.id = 1 // 3
+    customer.email = "jane@gmail.com"
+    val contact = Contact(1, "mary@gmail.com")  // 4
+ 
+    println(contact.id)   
+    println(customer.email)     // 5
+               // 6
+}
+
